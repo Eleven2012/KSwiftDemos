@@ -24,12 +24,14 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSCameraUsageDescription</key>
-	<string>YES</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>YES</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>YES</string>
+    <key>NSCameraUsageDescription</key>
+    <string>AVCam uses the camera to take photos and video.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>AVCam uses the microphone to record sound during Live Photos and movies.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>AVCam saves captured photos and videos to your photo library.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>AVCam saves captured photos and videos to your photo library.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>Main</string>
 	<key>UIMainStoryboardFile</key>
