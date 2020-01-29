@@ -102,7 +102,7 @@ NSString *const THThumbnailCreatedNotification = @"THThumbnailCreated";
     }
     
     
-    self.videoQueue = dispatch_queue_create("cc.VideoQueue", NULL);
+    self.videoQueue = dispatch_queue_create("com.kongyulu.VideoQueue", NULL);
     
     return YES;
 }
